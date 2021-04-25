@@ -1,29 +1,15 @@
-# mo-fish
+# MoFish 摸鱼
 
-## Project setup
-```
-yarn install
-```
+作为一个程序猿，比较喜欢看小说。看到一个别人写了一个[摸鱼工具](https://github.com/cteamx/Thief)。但是小说的性能不怎么好，我就看了看源代码，然后把我觉得不重要的功能统统砍掉，根据自己的理解重写了一个。纯粹娱乐。
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Bugs
 
-### Compiles and minifies for production
-```
-yarn build
-```
+欢迎大家提交Issue,我会定期（随缘）去看并进行更新。
 
-### Run your unit tests
-```
-yarn test:unit
-```
+## 联系我
 
-### Lints and fixes files
-```
-yarn lint
-```
+Email: leo.dev@qq.com
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 支持一下
+
+算了，我估计也不会有人打赏我，就不放二位什么了。

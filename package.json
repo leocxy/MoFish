@@ -1,14 +1,14 @@
 {
-  "name": "mo-fish",
+  "name": "MoFish",
   "version": "0.1.0",
   "private": true,
+  "author": "Leo Chen <leo.dev@qq.com",
+  "description": "Vue3 + Electron@11 + ElementUI 做的小说摸鱼工具",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "vue-cli-service electron:serve",
+    "build": "vue-cli-service electron:build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "electron:build": "vue-cli-service electron:build",
-    "electron:serve": "vue-cli-service electron:serve",
     "postinstall": "electron-builder install-app-deps",
     "postuninstall": "electron-builder install-app-deps"
   },
@@ -22,7 +22,8 @@
   },
   "devDependencies": {
     "@types/electron-devtools-installer": "^2.2.0",
-    "@types/jest": "^24.0.19",
+    "@types/lodash": "^4.14.168",
+    "@types/lowdb": "^1.0.9",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -34,7 +35,6 @@
     "@vue/compiler-sfc": "^3.0.0",
     "@vue/eslint-config-standard": "^5.1.2",
     "@vue/eslint-config-typescript": "^7.0.0",
-    "@vue/test-utils": "^2.0.0-0",
     "electron": "^11.0.0",
     "electron-devtools-installer": "^3.1.0",
     "eslint": "^6.7.2",
@@ -43,14 +43,17 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^7.0.0",
+    "iconv-lite": "^0.6.2",
     "lint-staged": "^9.5.0",
+    "lodash": "^4.17.21",
+    "lodash-id": "^0.14.0",
+    "lowdb": "^1.0.0",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "spectron": "13.0.0",
     "typescript": "~4.1.5",
     "vue-cli-plugin-electron-builder": "~2.0.0-rc.6",
-    "vue-cli-plugin-element-plus": "~0.0.13",
-    "vue-jest": "^5.0.0-0"
+    "vue-cli-plugin-element-plus": "~0.0.13"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
