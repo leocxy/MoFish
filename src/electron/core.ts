@@ -152,7 +152,7 @@ class MoFish {
                 type: 'separator'
             }, ...x)
         }
-        this.tray = new Tray(path.join(__static, 'assets', 'tray.png'))
+        this.tray = new Tray(path.join(__static, 'assets', 'mini_icon.png'))
         this.tray.setContextMenu(Menu.buildFromTemplate(menuList))
         // Register Ninja hotkey @todo
     }

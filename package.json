@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "author": "Leo Chen <leo.dev@qq.com",
-  "description": "Vue3 + Electron@11 + ElementUI 做的小说摸鱼工具",
+  "description": "Vue3 + Electron@11 + TypeScript + ElementUI 做的小说摸鱼工具",
   "scripts": {
     "serve": "vue-cli-service electron:serve",
     "build": "vue-cli-service electron:build",
